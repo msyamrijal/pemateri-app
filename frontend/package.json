@@ -35,13 +35,6 @@
     },
     "rules": {}
   },
-  "resolutions": {
-    "postcss": "^8.4.31"
-  },
-      "scripts": {
-      "preinstall": "npx npm-force-resolutions"
-  
-  },
   
     "overrides": {
       "cross-spawn": "^6.0.6"
