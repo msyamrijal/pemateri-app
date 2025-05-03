@@ -1,0 +1,8 @@
+# Backend
+backend/venv/       # Folder virtual environment Python
+backend/pemateri.db # File database SQLite
+__pycache__/       # Cache Python
+
+# Frontend
+frontend/node_modules/ # Library Node.js (terinstall via npm)
+frontend/dist/         # Hasil build Vue.js
