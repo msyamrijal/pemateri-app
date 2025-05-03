@@ -22,9 +22,15 @@ jobs:
           cd frontend
           npm install
 
+      - name: Fix permissions
+        run: |
+          cd frontend
+          chmod +x ./node_modules/.bin/vue-cli-service
+
       - name: Build
         run: |
           cd frontend
+          export PATH=$(npm bin):$PATH
           npm run build
 
       - name: Deploy
